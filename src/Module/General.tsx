@@ -34,51 +34,49 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'Join DataFest',
+  Typed_effect: ['1 month of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on TBD January 2023 with over 100 teams from across the nation for 1 month of model building, case study & innovation.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+  JUDGES_FORM_LINK: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  instagram: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  discord: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  linkedin: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  twitter: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  devpost: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ/',
+  email: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+  mail: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is DataFest?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'DataFest is 1 month long running datathon will be held on January DATES TBD. It calls for data enthusiasts, students, researchers, tech evangelists, creatives, and developers from all disciplines with a passion for data and models to take a part to win awesome prizes and collaborate with other developers . Throughout the event participants of DataFest will have unique opportunities to learn from each other trying hands in new solutions, innovative techniques and out of box thinking. We are determined to have an all-inclusive and diverse group of students attending.',
   LOGO: hackathonLogo
 };
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   },
   Privacy_policy: {
     required: true,
-    src: ''
+    src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   },
   Terms_of_use: {
     required: true,
-    src: ''
+    src: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   }
 };
 
@@ -90,61 +88,61 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 1,
+  year: 2023
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '1-1-2023',
     events: [
       {
-        title: 'Intro to phycycology',
+        title: 'Commencement of DataFest',
         timings: '12 AM - 1 Pm',
         link: 'https://google.com'
       }
     ]
   },
   {
-    day: '5-12-2021',
+    day: '5-1-2023',
     events: [
       {
-        title: 'Intro to deep learning',
+        title: 'Release of Problem Statement',
         timings: '12 AM - 1 Pm',
         link: 'https://google.com'
       },
       {
-        title: 'Intro to deep learning',
+        title: 'Release of Dataset',
         timings: '12 AM - 1 Pm',
         link: 'https://google.com'
       }
     ]
   },
   {
-    day: '3-12-2021',
+    day: '3-1-2023',
     events: [
       {
-        title: 'Intro to phycycology',
+        title: 'AMA Session',
         timings: '12 AM - 1 Pm',
         link: 'https://google.com'
       }
     ]
   },
   {
-    day: '1-12-2021',
+    day: '1-1-2023',
     events: [
       {
-        title: 'Intro to deep learning',
+        title: 'Lecture Series',
         timings: '12 AM - 1 Pm',
         link: 'https://google.com'
       }
     ]
   },
   {
-    day: '1-1-2022',
+    day: '1-1-2023',
     events: [
       {
-        title: 'Intro to phycycology',
+        title: 'Submission Deadline',
         timings: '12 AM - 1 Pm',
         link: 'https://google.com'
       }
@@ -200,19 +198,6 @@ const Prizeinfo = [
       content: 'Your project will qualify for this category if atleast 50% '
     },
     {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
-    },
-    {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
       type: 'More prizes',
       content: 'More prizes will be revealed later'
@@ -230,9 +215,9 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
+      Name: 'Rishi',
+      role: 'Event Head',
+      github: 'https://youtu.be/YUSFU3XV08A',
       linkedin: '',
       img: me
     },
@@ -274,7 +259,7 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
+      Name: 'Rishi',
       role: 'Organizer',
       github: '',
       linkedin: '',
@@ -334,36 +319,35 @@ const frequentlyAskedQuestions = [
   [
     [
       {
-        label: 'What is a hackathon?',
+        label: 'What is a datathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A datathon is usually a month long event where data enthusiasts all over the globe will collaborate on creating an innovative solution and model by the end of the event for a data-driven problem.'
       },
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'DataFest is open to all practitioners, researchers, graduate, undergraduate, high school students and middle school students from all across the globe, who nurture a passion for data.'
       },
       {
-        label: 'I am a first time hacker, what should I do?',
+        label: 'I am a first time devil, what should I do?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'No worries, we love to welcome first time devils and start their data journey from a datathon. We have some awesome workshops and events which will help you get started with datathon and model building in general.'
       },
       {
-        label: 'How team formation works?',
+        label: 'How devil army formation works?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form devil army with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet devils and form a devil army!"
       }
     ],
     [
       {
-        label: 'How to register myself in the hackathon?',
+        label: 'How to register myself in the datathon?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'All you need is to fill our form above and join google group mail (OR DISCORD TBD), we will guide you through everything there'
       },
       {
         label: 'I have more questions?',
-        content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+        content: 'Reach us directly at (TBD or TBD) we would happy to help you.'
       },
       {
         label: 'Can i volunteer?',
@@ -372,7 +356,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will receiveing Devil DataFest swag!.'
       }
     ]
   ]
