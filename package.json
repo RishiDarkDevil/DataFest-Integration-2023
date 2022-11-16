@@ -32,6 +32,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
@@ -73,5 +75,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
-  }
+  },
+  "homepage": "https://rishidarkdevil.github.io/DataFest-Integration-2023"
 }
