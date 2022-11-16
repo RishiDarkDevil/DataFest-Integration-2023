@@ -1,4 +1,4 @@
-# Hackathon website Folio template ⚡️
+# Datathon website Folio template ⚡️
 
 ![](https://img.shields.io/github/repo-size/Limbo-Hacks/Hackathon-website-template)
 ![](https://img.shields.io/github/commit-activity/m/Limbo-Hacks/Hackathon-website-template)
